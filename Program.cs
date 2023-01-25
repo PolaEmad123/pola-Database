@@ -18,6 +18,7 @@ namespace pola-Database
         InitializeComponent();
         con = new Functions();
         ShowEmployess();
+        GetDepartment();
 
 
     }
