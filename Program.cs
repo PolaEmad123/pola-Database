@@ -16,6 +16,7 @@ namespace pola-Database
     public Employee()
     {
         InitializeComponent();
+        con = new Functions();
 
 
 
