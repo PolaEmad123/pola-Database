@@ -13,3 +13,4 @@ namespace pola-Database
         public partial class Employee : Form
         {
             private Functions con;
+    public Employee()
