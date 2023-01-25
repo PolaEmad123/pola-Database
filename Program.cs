@@ -14,4 +14,10 @@ namespace pola-Database
        {
     private Functions con;
     public Employee()
+    {
+        InitializeComponent();
+
+
+
+    }
 
