@@ -49,3 +49,4 @@ namespace pola-Database
 
     }
     int Key = 0;
+    private void EmpList_CellContentClick(object sender, DataGridViewCellEventArgs e)
