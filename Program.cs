@@ -55,6 +55,6 @@ namespace pola-Database
         cbEmpGen.Text = EmpList.SelectedRows[0].Cells[2].Value.ToString();
         CbDeptIdEmp.SelectedValue = EmpList.SelectedRows[0].Cells[3].Value.ToString();
         EmpDate.Text = EmpList.SelectedRows[0].Cells[4].Value.ToString();
-
+        JDate.Text = EmpList.SelectedRows[0].Cells[5].Value.ToString();
 
     }
