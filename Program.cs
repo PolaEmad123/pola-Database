@@ -67,3 +67,41 @@ namespace pola-Database
         }
     }
     private void AddBtn_Click(object sender, EventArgs e)
+    {
+
+
+
+        try
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
