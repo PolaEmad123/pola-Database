@@ -23,4 +23,7 @@ namespace pola-Database
 
     }
     private void ShowEmployess()
+    {
+        string Query = "Select * from Employee";
+
 
