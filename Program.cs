@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace pola-Database
 {
        public partial class Employee : Form
-       {
+{
     private Functions con;
     public Employee()
     {
@@ -30,5 +30,9 @@ namespace pola-Database
 
     }
     private void GetDepartment()
+    {
+        string Query = "Select * from Department";
 
+
+    }
 
