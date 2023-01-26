@@ -76,7 +76,7 @@ namespace pola-Database
             if (EmpName.Text == "" || EmpSalary.Text == "" || cbEmpGen.SelectedIndex == -1 || CbDeptIdEmp.SelectedIndex == -1)
                 MessageBox.Show("Missing Data !!!");
         }
-
+          string name = EmpName.Text.ToString();
 
 
 
