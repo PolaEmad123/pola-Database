@@ -41,6 +41,7 @@ namespace pola-Database
     {
         Login log = new Login();
         log.Show();
+        this.Hide();
 
 
 
