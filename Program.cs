@@ -28,3 +28,7 @@ namespace pola-Database
         EmpList.DataSource = con.GetData(Query);
 
 
+    }
+
+
+
