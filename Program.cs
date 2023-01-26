@@ -57,4 +57,4 @@ namespace pola-Database
         EmpDate.Text = EmpList.SelectedRows[0].Cells[4].Value.ToString();
         JDate.Text = EmpList.SelectedRows[0].Cells[5].Value.ToString();
         EmpSalary.Text = EmpList.SelectedRows[0].Cells[6].Value.ToString();
-    }
+    }   if (EmpName.Text == "")
