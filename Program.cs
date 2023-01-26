@@ -43,4 +43,9 @@ namespace pola-Database
         log.Show();
         this.Hide();
     }
+
     private void textBox4_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+    int Key = 0;
