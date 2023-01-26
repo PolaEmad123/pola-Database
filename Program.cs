@@ -53,7 +53,7 @@ namespace pola-Database
     {
         EmpName.Text = EmpList.SelectedRows[0].Cells[1].Value.ToString();
         cbEmpGen.Text = EmpList.SelectedRows[0].Cells[2].Value.ToString();
-
+        CbDeptIdEmp.SelectedValue = EmpList.SelectedRows[0].Cells[3].Value.ToString();
 
 
 
