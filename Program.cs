@@ -73,7 +73,7 @@ namespace pola-Database
 
         try
         {
-
+            if (EmpName.Text == "" || EmpSalary.Text == "" || cbEmpGen.SelectedIndex == -1 || CbDeptIdEmp.SelectedIndex == -1)
 
 
 
