@@ -52,7 +52,7 @@ namespace pola-Database
     private void EmpList_CellContentClick(object sender, DataGridViewCellEventArgs e)
     {
         EmpName.Text = EmpList.SelectedRows[0].Cells[1].Value.ToString();
-
+        cbEmpGen.Text = EmpList.SelectedRows[0].Cells[2].Value.ToString();
 
 
 
