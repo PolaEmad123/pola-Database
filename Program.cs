@@ -65,7 +65,4 @@ namespace pola-Database
         {
             Key = Convert.ToInt32(EmpList.SelectedRows[0].Cells[0].Value.ToString());
         }
-
-
-
     } 
