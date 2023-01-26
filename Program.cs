@@ -38,4 +38,10 @@ namespace pola-Database
 
     }
     private void Employee_Load(object sender, EventArgs e)
+    {
+        Login log = new Login();
 
+
+
+
+    }
