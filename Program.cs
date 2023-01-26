@@ -32,7 +32,7 @@ namespace pola-Database
     private void GetDepartment()
     {
         string Query = "Select * from Department";
-
+        CbDeptIdEmp.DisplayMember = con.GetData(Query).Columns["DeotName"].ToString();
 
     }
 
